@@ -1,0 +1,97 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(240, 174, 93);
+    text-align: center;
+}
+#welcome{
+    font-size: 30px;
+    text-shadow:0 0 8px  rgb(215, 6, 6) 
+
+}
+.heading {
+    font-size: 50px;
+    text-shadow:0 0 8px  rgb(215, 6, 6) ;
+    text-decoration: underline;
+}
+.container{
+    height: 50vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    background-color: rgb(171, 249, 229);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 8px  rgb(215, 17, 6);
+    font-size: 40px;
+    text-shadow: 0 0 8px  rgb(6, 128, 215);
+    color: black;
+    /* font-weight: 200px; */
+}
+
+.buttonsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reset_btn{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(99, 135, 220);
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    box-shadow:0 0 10px  rgb(215, 17, 6) ;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.newgame_btn{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(99, 135, 220);
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow:0 0 10px  rgb(215, 17, 6) ;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.winner{
+    height: 80px;
+    font-weight: bolder;
+    color: rgb(248, 33, 9);
+    text-shadow:0 0 10px  rgb(232, 218, 13) ;
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+
+}
+
+.note{
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow:0 0 2px  rgb(215, 17, 6) ;
+}
